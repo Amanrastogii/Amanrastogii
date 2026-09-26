@@ -18,6 +18,7 @@ I design and ship backend systems that real users depend on: REST APIs, relation
 
 | Project | What it does | Stack |
 |---|---|---|
+| **[AI Video Editor](https://github.com/Amanrastogii/AI_vedio_editor)** | AI video editing platform: an 11-agent pipeline (ingestion, scene detection, story building, editing decisions, rendering, QA) with live WebSocket progress, a Premiere-style manual editor with FFmpeg transitions, captions, beat sync and learning from an editor's past cuts. | FastAPI, Celery, Redis, PostgreSQL, FFmpeg, Next.js |
 | **[Prism: LLM Gateway & Semantic Cache](https://github.com/Amanrastogii/Prism_LLM_Gateway)** | OpenAI-compatible gateway with per-team virtual keys, Redis rate limiting, atomic monthly budgets, failover chains, streaming, difficulty-based auto-routing and a pgvector semantic cache. 171 unit + 30 integration tests, ~2.6 ms added latency. | .NET 8, PostgreSQL + pgvector, Redis, React, Docker |
 | **[Finbud HRMS Backend](https://github.com/Amanrastogii/Finbud_HRMS_Backend)** | Production HRMS: employees, fingerprint attendance, leave workflows, payroll, JWT role-based access, Flyway migrations and an OpenAI/pgvector HR assistant. | Java 21, Spring Boot 3, PostgreSQL, Redis, Docker |
 | **[Finbud Hiring Backend](https://github.com/Amanrastogii/finbud-hiring_backend)** | Hiring portal API: applications, resume upload/download, shortlist/reject workflow and admin endpoints, with DTOs and global exception handling. | Java, Spring Boot, JPA, PostgreSQL |
